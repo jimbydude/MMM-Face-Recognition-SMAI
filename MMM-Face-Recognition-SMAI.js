@@ -1,7 +1,7 @@
 /* global Module */
 
 /* Magic Mirror
- * Module: MMM-Face-Recognition-SMAI
+ * Module: MMM-Face-Multi-User-Recognition-SMAI
  *
  * By James Macdonald
  * MIT Licensed.
@@ -10,7 +10,7 @@
 const MORNING   = -1;
 const AFTERNOON = 0;
 const EVENING   = 1;
-Module.register("MMM-Face-Recognition-SMAI", {
+Module.register("MMM-Face-Multi-User-Recognition-SMAI", {
 	defaults: {
 		updateInterval: 10000,
 		retryDelay: 5000,
@@ -74,7 +74,7 @@ Module.register("MMM-Face-Recognition-SMAI", {
 		// Asychronoulsy load either GIF or face (as name).
 		var img = document.createElement("img");
 		var newImg = new Image;
-		newImg.src = "modules/MMM-Face-Recognition-SMAI/public/" + this.userImage;
+		newImg.src = "modules/MMM-Face-Multi-User-Recognition-SMAI/public/" + this.userImage;
 		newImg.onload = function()
 		{
 			img.src = this.src;
@@ -92,7 +92,7 @@ Module.register("MMM-Face-Recognition-SMAI", {
 
 	getStyles: function () {
 		return [
-			"MMM-Face-Recognition-SMAI.css",
+			"MMM-Face-Multi-User-Recognition-SMAI.css",
 		];
 	},
 
