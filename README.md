@@ -1,5 +1,7 @@
 # MMM-AI-Face-Login
-This is a module for the [MagicMirror²](https://github.com/MichMich/MagicMirror/) to add face recognition with profiles.
+This is a module for the [MagicMirror²](https://github.com/MichMich/MagicMirror/) to add face recognition.
+This module uses [OpenCV face-recognition with DNN](https://github.com/nischi/MMM-Face-Reco-DNN) to handle the user profile recognition. It will show/hide modules based on classes and can handle multiple users.
+
 
 It is a fork of Eben Kouaos https://github.com/EbenKouao/MMM-Face-Recognition-SMAI. See his other projects at https://smartbuilds.io/
 
