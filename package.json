@@ -1,8 +1,8 @@
 {
-  "name": "MMM-Face-Recognition-SMAI",
+  "name": "MMM-Face-Multi-User-Recognition-SMAI",
   "version": "1.0.0",
   "description": "Todo: Insert description here!",
-  "main": "MMM-Face-Recognition-SMAI.js",
+  "main": "MMM-Face-Multi-User-Recognition-SMAI.js",
   "author": "",
   "license": "MIT",
   "devDependencies": {
