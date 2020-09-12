@@ -33,7 +33,7 @@ In your MagicMirror directory:
 
 ```bash cd modules
    git clone https://github.com/jimbydude/MMM-Face-Multi-User-Recognition-SMAI.git
-   cd MMM-AI-Face-Login
+   cd MMM-Face-Multi-User-Recognition-SMAI
    npm install
 ```
 
