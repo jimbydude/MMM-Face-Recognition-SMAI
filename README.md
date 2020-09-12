@@ -32,7 +32,7 @@ Make sure to complete MMM-Face-Reco-DNN setup including adding classes for showi
 In your MagicMirror directory:
 
 ```bash cd modules
-   git clone https://github.com/jimbydude/MMM-AI-Face-Login.git
+   git clone https://github.com/jimbydude/MMM-Face-Multi-User-Recognition-SMAI.git
    cd MMM-AI-Face-Login
    npm install
 ```
@@ -42,12 +42,12 @@ Here is an example for an entry in `config.js`
 
 ```javascript
 {
-  module: "MMM-AI-Face-Login",
+  module: "MMM-Face-Multi-User-Recognition-SMAI",
   position: "top_right",
   config: {
     useMMMFaceRecoDNN: true
   }
-}
+},
 ```
 
 ## Step 3 – Configuring the Face Recognition Python Script
