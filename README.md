@@ -50,7 +50,7 @@ Here is an example for an entry in `config.js`
 },
 ```
 
-## Step 3 – Configuring the Face Recognition Python Script
+## Step 3 – Configuring the Face Recognition Structure
 **Pre-requisite:** Follow isntructions in OpenCV Installation to setup your dataset with images.
 
 This module assumes a few things:
