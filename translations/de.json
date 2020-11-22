@@ -4,5 +4,6 @@
   "WELCOME": "Willkommen,",
   "GOOD_MORNING": "Guten Morgen,",
   "GOOD_AFTERNOON": "Guten Tag,",
-  "GOOD_EVENING": "Guten Abend,"
+  "GOOD_EVENING": "Guten Abend,",
+  "GUEST_NAME": "Gast"
 }
