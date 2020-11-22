@@ -133,7 +133,7 @@ Module.register("MMM-Face-Multi-User-Recognition-SMAI", {
 //						Log.log("Logging out. Reset image.");
 //						
 //						this.loggedIn = false;
-//						this.userName = this.translate('Mr. Nobody');
+//						this.userName = this.translate('GUEST_NAME');
 //						this.userImage = "guest.gif";
 //						self.updateDom(100);
 //					}, 25000);
@@ -145,7 +145,7 @@ Module.register("MMM-Face-Multi-User-Recognition-SMAI", {
 				Log.log("Notificaiton: " + notification + " from Mirror. Logging out " + payload);
 				
 				this.loggedIn = false;
-				this.userName = this.translate('Mr. Nobody');
+				this.userName = this.translate('GUEST_NAME');
 				this.userImage = "guest.gif";
 				self.updateDom(100);
 				
